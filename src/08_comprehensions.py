@@ -45,6 +45,10 @@ x = input("Enter comma-separated numbers: ").split(',')
 
 
 # What do you need between the square brackets to make it work?
-y = []
 
-print(y)
+y_up = []
+for x in a:
+    y_up.append(x.upper())
+
+
+print(y_up)
