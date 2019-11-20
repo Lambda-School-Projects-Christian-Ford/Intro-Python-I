@@ -50,5 +50,5 @@ print(waypoints)
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 
-for key, value in waypoints.items():
-    print(f'{key}: {value}')
+for items in waypoints:
+    print(f'{items["lat"]}')
